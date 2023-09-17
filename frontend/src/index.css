@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.map-container {
+    height: 400px;
+    width: 100%;
+    }
+
+    .react-pdf__Page__canvas {
+        margin: 0 auto;
+        width: 50% !important;
+        height: 30% !important;
+    } 
+
+    .mobilenav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        top: 5vh;
+        min-width: 200px;
+        min-height: 400px;
+        background: rgba(31, 41, 55, var(--tw-bg-opacity));
+        opacity: 0.9;
+        right: 0;
+
+    }
+
+
+    .nomobilenav{
+        display: none;
+    }
